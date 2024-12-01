@@ -1,4 +1,4 @@
-name: [CI/CD] Docker Image - NGINX
+name: Docker Image CI/CD - NGINX
 
 on:
   push:
