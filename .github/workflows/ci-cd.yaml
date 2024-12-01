@@ -1,4 +1,4 @@
-name: NGINX Docker Image CI/CD
+name: [CI/CD] Docker Image - NGINX
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - 'v*'
 
 env:
-  NGINX_VERSION: latest
+  NGINX_VERSION: stable
   DOCKER_HUB_REPO: ${{ secrets.DOCKER_HUB_USERNAME }}/nginx
 
 jobs:

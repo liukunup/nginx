@@ -1,2 +1,2 @@
-FROM nginx:latest
+FROM nginx:stable
 COPY config /etc/nginx/
